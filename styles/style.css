@@ -91,5 +91,174 @@ header{
     color: #727272;
 }
 
+/* ---------feature you will love section------------ */
 
+.feature-love{
+    display: flex;
+    gap: 54px;
+    margin-top: 130px;
+    padding: 0px 240px;
 
+}
+.feature-love-heading{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 24px;
+    padding-left: 20px;
+}
+.feature-love-description, .feature-list-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.feature-list{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 30px 1px 30px;
+    margin-bottom: 20px;
+}
+.feature-list-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.feature-love-photo{
+    width: 708px;
+    height: 982px;
+}
+.feature-love-photo img{
+    border-radius: 8px;
+    margin-left: 92px;
+    
+}
+.btn-ten-year{
+    position: absolute;
+    right: 600px;
+    margin-top: 859px;
+}
+.btn-ten-year button{
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    border: none;
+    border: none;
+}
+.text-ten-year{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+}
+.text-experience{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+}
+
+/* ----------- some facts--------------  */
+
+.some-facts{
+    margin-top: 130px;
+    padding-left: 240px;
+    padding-right: 290px;
+}
+.some-fact-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.some-fact-details{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+}
+.fact-boxes{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+.fact-box{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    padding: 45px 36px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.fact-box img{
+    width: 45.22px;
+    height: 45.22px;
+    
+}
+.fact-box h2{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.fact-box p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/* -------------sponsor section -------------- */
+.our-sponsors{
+    margin-top: 180px;
+}
+.sponsor-heading{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+.sponsor-details{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    text-align: center;
+    margin-top: 24px;
+}
+.sponsor-logos{
+    margin-top: 50px;
+    padding-left: 240px;
+    padding-right: 240px;
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%);
+}
+/* ------------------footer section --------------- */
+
+.footer-part{
+    width: 900px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 0 240px;
+    margin: 130px auto 130px auto;
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+    padding: 39px 0px;
+}
