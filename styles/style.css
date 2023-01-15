@@ -26,6 +26,15 @@ header{
     font-size: 18px;
 }
 /* --------------------banner section ------------ */
+/* .banner{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+} */
+
 .banner{
     display: flex;
     align-items: center;
@@ -172,9 +181,11 @@ header{
     padding-left: 240px;
     padding-right: 290px;
 }
+
 .some-fact-title{
     font-weight: 700;
     font-size: 45px;
+    
 }
 .some-fact-details{
     font-weight: 400;
@@ -182,6 +193,7 @@ header{
     line-height: 26px;
     color: #727272;
     margin-top: 24px;
+    
 }
 .fact-boxes{
     display: flex;
@@ -261,4 +273,83 @@ header{
     text-align: center;
     color: #424242;
     padding: 39px 0px;
+}
+
+/* ------------Media Query--------------- */
+@media screen and (max-width:576px) {
+    *{
+        margin: 0px;
+    }
+    header{
+        padding: 20px;
+        
+    }
+    .nav-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-options{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    /* ------------banner-----------  */
+    .banner{
+        margin-top: 20px;
+    }
+    .banner-pic{
+        
+    }
+    /* --------feature section -------------- */
+    .feature-container{
+        margin: 0px;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    .feature-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-love{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .feature-love-photo img{
+        border-radius: 8px;
+        margin-left: 0px;
+    }
+    .btn-ten-year{
+       position: static;
+       margin-top: 0px;
+    }
+    .some-facts{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        padding: 20px;
+    }
+    .fact-boxes{
+        flex-direction: column;
+        padding-left: 5px;
+    }
+    .fact-box{
+        margin-top: 20px;
+    }
+    .our-sponsors{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .sponsor-logos{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    .footer-part{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 10px;
+    }
 }
